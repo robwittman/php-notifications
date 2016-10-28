@@ -12,7 +12,7 @@
         "ramsey/uuid": "^3.5"
     },
     "autoload" : {
-        "psr4" : {
+        "psr-4" : {
             "Notification\\" : "src"
         }
     }
