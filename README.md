@@ -42,4 +42,4 @@ Notifier::info();
 #returns array('name' => 'server.name', 'version' => '1.0.0')
 ```
 
-For further documentation or examples [check the container repo](https://github.com/robwittman/notification-server)
+For further documentation or examples [check the container repo](https://github.com/robwittman/notification-socket.io)
