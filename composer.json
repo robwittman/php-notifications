@@ -1,0 +1,19 @@
+{
+    "name": "robwittman/php-notifications",
+    "description": "PHP bindings for robwittman/notification-server",
+    "authors": [
+        {
+            "name": "Rob Wittman",
+            "email": "rob@ihsdigital.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle" : "6.2.2",
+        "ramsey/uuid": "^3.5"
+    },
+    "autoload" : {
+        "psr4" : {
+            "Notification\\" : "src"
+        }
+    }
+}
