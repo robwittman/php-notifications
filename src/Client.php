@@ -97,7 +97,7 @@ class Client {
                 throw new InvalidAuthorizationException("X-AUTH-TOKEN header either missing or contains wrong key");
                 break;
             case 400:
-                throw new \Exception("There was an error wih your request");
+                throw new InvalidRequestException("There was an error wih your request");
                 break;
             case 404:
                 throw new \Exception("URL '{$full_path}' Not Found");
